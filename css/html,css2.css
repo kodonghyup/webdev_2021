@@ -1,0 +1,9 @@
+.list{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
