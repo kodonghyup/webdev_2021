@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습</title>
+</head>
+<body>
+    <h1>프론트엔드 개발자 지원서</h1>
+    <h4>HTML, CSS, JAVASCRIPT에 대한 기술적 이해와 많은 경험이 있는분을 찾습니다.</h4>
+    <form>
+        <fieldset>
+            <legend>입사지원서</legend>
+            <h4>개인정보</h4>
+            <ul>
+                <li>이름<input type="text"></li>
+                <li>연락처<input type="password"></li>
+                <li>학과<select name="major">
+                    <option value="컴퓨터 공학과">컴퓨터 공학과</option>
+                    <option value="에너지 공학과">에너지 공학과</option>
+                    <option value="건축공학과">건축공학과</option>
+                    </select>
+                </li>
+            </ul>
+
+            <h4>지원 분야</h4>
+            <ul>
+                <li><input type="radio" name="info" value="web">웹 퍼블리싱</li>
+                <li><input type="radio" name="info" value="web">웹 어플리케이션</li>
+                <li><input type="radio" name="info" value="web">웹 개발 지원</li>
+            </ul> 
+            
+            <h4>지원 동기</h4>
+            <label for="memo"></label>
+            <textarea cols="50" rows="5" placeholder="지원동기를 작성해주세요"></textarea>
+            <br>
+            <button>접수하기</button>
+            <button>다시 작성하기</button>
+    </form>
+    
+</body>
+</html>
